@@ -142,3 +142,41 @@ while(counterRound<2){
     
                     alert(`HAY UN EMPATE`)
                 } 
+
+                
+            ; break
+        }  case "2": {
+                
+            alert(`Jugador 1 se ha plantado`);
+            alert(`Jugador 2 se ha plantado`);
+
+            counterRound++
+
+            alert(`El acumulado del jugador 1 es: ${counterPlayerOne}`)  ;
+            alert(`El acumulado del jugador 2 es: ${counterPlayerTwo}`)  ;
+
+            alert(`Ronda ${counterRound} finalizada`) 
+
+            if(counterPlayerOne>counterPlayerTwo){
+
+                alert(`El jugador 1 ha ganado`)
+
+            }else if(counterPlayerOne<counterPlayerTwo){
+
+                alert(`El jugador 2 ha ganado`)
+
+            }else if(counterPlayerOne===counterPlayerTwo){
+
+                alert(`HAY UN EMPATE`)
+            } 
+
+            break}
+           
+
+    
+    }
+    }       
+    }
+    }
+    }
+});
